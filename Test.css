@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10, 1 fr);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+ h1 {
+     grid-column: 3/7;
+     grid-row: 6/6;
+ }  
+   
+iframe {
+    justify-self: center;
+    align-items: center;
+}
+@media screen and {max-width:  1180px}
+.one {
+    grid-column: 1/6;
+    grid-row: 1/6;
+    background-color: blue;
+}
+
+.two {
+    grid-column: 6/11;
+    grid-row: 1/6;
+    background-color: yellow;
+}
+
+.three {
+    grid-column: 1/6;
+    grid-row: 6/11;
+    background-color: red;
+}
+
+.four {
+    grid-column: 6/11;
+    grid-row: 6/11;
+    background-color: seashell;
+}
